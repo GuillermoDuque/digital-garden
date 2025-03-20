@@ -1,2 +1,6 @@
+---
+title: Bienvenido
+draft: false
+---
 
-![Descripción de la imagen](assets/climbers.png)
+Mi nombre Guillermo Duque y este mi "Digital Garden". En este lugar compartiré lo que estoy estudiando actualmente, apuntes, resumenes y todo lo relacionado a mis temas de interes.
