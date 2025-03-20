@@ -20,7 +20,7 @@ Más allá del código, disfruto leer libros sobre programación y filosofía, c
   float: right;
   margin-left: 15px;
   border-radius: 10px;
-  width: 300px;
+  width: 200px;
 }
 
 /* Media query para dispositivos móviles */
@@ -29,7 +29,7 @@ Más allá del código, disfruto leer libros sobre programación y filosofía, c
     float: none; /* Quitar float en pantallas pequeñas */
     display: block; /* Mostrar la imagen como bloque */
     margin: 0 auto; /* Centrar la imagen en pantallas pequeñas */
-    width: 100%; /* Asegurarse de que la imagen ocupe el 100% del contenedor en móvil */
+    width: 70%; /* Asegurarse de que la imagen ocupe el 100% del contenedor en móvil */
   }
 }
 </style>
