@@ -1,14 +1,15 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const Header: QuartzComponent = ({ children }: QuartzComponentProps) => {
+  const climbersPath = "static/climbers.webp"
+
   return (
     <header>
-      <img src="digital-garden/static/climbers.webp" alt="Climbers" className="header-image" />
+      <img src={climbersPath} alt="Climbers" className="header-image" />
       {children.length > 0 ? children : null}
     </header>
   )
 }
-
 Header.css = `
 header {
   display: flex;

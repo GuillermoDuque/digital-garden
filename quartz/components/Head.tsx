@@ -26,6 +26,7 @@ export default (() => {
     const path = url.pathname as FullSlug
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
+    const climbersPath = joinSegments(baseDir, "static/climbers.webp")
 
     // Url of current page
     const socialUrl =
@@ -82,6 +83,7 @@ export default (() => {
           </>
         )}
 
+        <link rel="preload" as="image" href={climbersPath} />
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
