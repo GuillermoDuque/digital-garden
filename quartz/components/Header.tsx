@@ -1,21 +1,28 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const Header: QuartzComponent = ({ children }: QuartzComponentProps) => {
-  return children.length > 0 ? <header>{children}</header> : null
+  return (
+    <header>
+      <img src="/assets/climbers.webp" alt="Climbers" className="header-image" />
+      {children.length > 0 ? children : null}
+    </header>
+  )
 }
 
 Header.css = `
 header {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   margin: 2rem 0;
   gap: 1.5rem;
 }
 
-header h1 {
-  margin: 0;
-  flex: auto;
+.header-image {
+  width: 100%; /* Ajusta según necesidad */
+  max-height: 250px; /* Evita imágenes demasiado grandes */
+  object-fit: cover; /* Mantiene proporciones */
+  display: block;
 }
 `
 
