@@ -3,7 +3,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 const Header: QuartzComponent = ({ children }: QuartzComponentProps) => {
   return (
     <header>
-      <img src="/assets/climbers.webp" alt="Climbers" className="header-image" />
+      <img src="/static/climbers.webp" alt="Climbers" className="header-image" />
       {children.length > 0 ? children : null}
     </header>
   )
