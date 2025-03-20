@@ -1,7 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const Header: QuartzComponent = ({ children }: QuartzComponentProps) => {
-  const climbersPath = "static/climbers.webp"
+  const climbersPath = "/digital-garden/static/climbers.webp"
 
   return (
     <header>
