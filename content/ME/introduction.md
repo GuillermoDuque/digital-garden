@@ -5,7 +5,7 @@ tags:
   - profile
 ---
 
-<img src="../assets/DIO.jpeg" alt="DIO.jpeg" class="img-responsive">
+<img src="../assets/DIO.webp" alt="DIO.webp" class="img-responsive">
 
 Hola, mi nombre es **Guillermo Duque Sánchez** y este es mi digital garden.
 

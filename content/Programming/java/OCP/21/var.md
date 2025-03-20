@@ -1,6 +1,6 @@
 ---
 title: ¿Qué es var?
-draft: true
+draft: false
 tags:
   - java
 ---
