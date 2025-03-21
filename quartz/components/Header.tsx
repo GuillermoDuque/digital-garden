@@ -3,12 +3,6 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 const Header: QuartzComponent = ({ children }: QuartzComponentProps) => {
   return (
     <header>
-      <img
-        src="/digital-garden/static/climbers.webp"
-        alt="Descripción de la imagen"
-        className="header-image"
-      />
-
       {children.length > 0 ? children : null}
     </header>
   )
@@ -22,12 +16,6 @@ header {
   gap: 1.5rem;
 }
 
-.header-image {
-  width: 100%; /* Ajusta según necesidad */
-  max-height: 250px; /* Evita imágenes demasiado grandes */
-  object-fit: cover; /* Mantiene proporciones */
-  display: block;
-}
 `
 
 export default (() => Header) satisfies QuartzComponentConstructor

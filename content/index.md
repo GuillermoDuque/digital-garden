@@ -1,13 +1,27 @@
 ---
 title: Bienvenido
 draft: false
+
 ---
 
-> [!quote] Leitmotiv
-> 
-> "La utopía está en el horizonte. Camino dos pasos, ella se aleja dos pasos, y el horizonte se corre diez pasos más allá. Entonces, ¿para qué sirve la utopía? Para eso, sirve para caminar."
->   
->  -- Fernando Birri (atribuida justamente a Eduardo Galeano)
- 
+<img src="../assets/climbers.webp" alt="DIO.webp" class="image">
 
-Mi nombre es Guillermo Duque y este es mi "Digital Garden". En este espacio compartiré lo que estoy estudiando actualmente, apuntes, resúmenes y reflexiones sobre mis áreas de interés.
+> [!quote] Leitmotiv
+>
+> "La utopía está en el horizonte. Camino dos pasos, ella se aleja dos pasos, y el horizonte se corre diez pasos más
+> allá. Entonces, ¿para qué sirve la utopía? Para eso, sirve para caminar."
+>
+>  -- Fernando Birri (atribuida justamente a Eduardo Galeano)
+
+
+Mi nombre es Guillermo Duque y este es mi "Digital Garden". En este espacio compartiré lo que estoy estudiando
+actualmente, apuntes, resúmenes y reflexiones sobre mis áreas de interés.
+
+<style>
+.image {
+width: 100%; /* Ajusta según necesidad */
+max-height: 250px; /* Evita imágenes demasiado grandes */
+object-fit: cover; /* Mantiene proporciones */
+display: block;
+}
+</style>
