@@ -1,3 +1,26 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+
+.image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+.profile-img-responsive {
+  float: right;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 600px) {
+  .profile-img-responsive {
+    float: none; /* Quitar float en pantallas pequeñas */
+    display: block; /* Mostrar la imagen como bloque */
+    margin: 0 auto; /* Centrar la imagen en pantallas pequeñas */
+    width: 70%; /* Asegurarse de que la imagen ocupe el 100% del contenedor en móvil */
+  }
+}

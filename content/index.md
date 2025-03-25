@@ -16,12 +16,3 @@ draft: false
 
 Mi nombre es Guillermo Duque y este es mi "Digital Garden". En este espacio compartiré lo que estoy estudiando
 actualmente, apuntes, resúmenes y reflexiones sobre mis áreas de interés.
-
-<style>
-.image {
-width: 100%; /* Ajusta según necesidad */
-max-height: 250px; /* Evita imágenes demasiado grandes */
-object-fit: cover; /* Mantiene proporciones */
-display: block;
-}
-</style>
