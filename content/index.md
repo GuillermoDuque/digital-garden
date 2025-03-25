@@ -4,7 +4,7 @@ draft: false
 
 ---
 
-<img src="../assets/climbers.webp" alt="DIO.webp" class="image">
+<img src="../assets/climbers.webp" alt="climbers" class="image">
 
 > [!quote] Leitmotiv
 >
