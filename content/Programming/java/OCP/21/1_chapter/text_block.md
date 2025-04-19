@@ -1,6 +1,6 @@
 ---
 title: Text Block
-draft: true
+draft: false
 tags:
   - java
 ---
