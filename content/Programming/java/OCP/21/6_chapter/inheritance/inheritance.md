@@ -6,7 +6,7 @@ tags:
 ---
 
 
-<img src="./img.png" alt="inheritance">
+<img src="img.png" alt="inheritance">
 
 - Una _superclass_ no tiene nada de particular para ser heredable, solo no debe ser final.
 - La herencia es **transitiva**. Dado tres clases (X, Y, Z),  sí X extiende Y, de la misma forma Y extiende Z, entonces X es considerada una subclass o descendiente de Z. De la misma forma Z es ancestro o una superclass de X.
